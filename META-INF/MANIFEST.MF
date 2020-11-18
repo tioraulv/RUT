@@ -1,0 +1,13 @@
+Automatic-Module-Name: org.openmanager.idempiere.lcl.taxid2
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: rutcheck
+Bundle-SymbolicName: org.openmanager.idempiere.LCL.taxid2;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0"
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Service-Component: META-INF/lcl_calloutsfactory.xml, OSGI-INF/lcl_eventhandler.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.service.event
