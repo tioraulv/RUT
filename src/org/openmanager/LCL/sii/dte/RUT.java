@@ -20,7 +20,7 @@ package org.openmanager.LCL.sii.dte;
  * 
  * Algoritmo de cálculo de Y:
  * 1.-El primer número (dígito) de X de derecha a izquierda se amplifica por 2, el siguiente número por tres,
- * el sucesivo por cuatro y así susecivamente. En el octavo dígito se vuelve a empezar con el número 2, el noveno por 3, etc.
+ * el sucesivo por cuatro y así sucesivamente. En el octavo dígito se vuelve a empezar con el número 2, el noveno por 3, etc.
  * 2.-Se suman los resultados parciales de las multiplicaciones obtenidas en el paso anterior.
  * 3.-La suma total del punto anterior se divide por 11 para obtener el Residuo de la división.
  * 4.-Cuando el Residuo es 1, el valor de Y es K y si es 0 el valor de Y es 0, para los otros casos. El valor de Y es la diferencia entre 11 y el residuo.
