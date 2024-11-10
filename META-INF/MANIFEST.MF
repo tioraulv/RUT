@@ -4,7 +4,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: rutcheck
 Bundle-SymbolicName: org.openmanager.idempiere.LCL.taxid2;singleton:=true
 Bundle-Version: 2.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
  org.adempiere.plugin.utils;bundle-version="0.0.0"
 Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
