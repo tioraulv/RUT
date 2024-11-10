@@ -46,7 +46,7 @@ public static class VericarTaxid implements IColumnCallout {
 		} catch (RUTException ruterrores){mTab.setValue("TaxID", oldValue);
 			return ""+rutxverificar+" "+ruterrores;
 			}
-		
+		//si el rut es correcto entonces acutaliza el campo TaxID y Value
 		mTab.setValue("TaxID", rutverificado.toString().toUpperCase());
 		mTab.setValue("Value", rutverificado.toString().toUpperCase());
 		return null;
